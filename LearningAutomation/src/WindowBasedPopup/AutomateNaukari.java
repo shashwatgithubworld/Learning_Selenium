@@ -1,4 +1,4 @@
-package PopUps;
+package WindowBasedPopup;
 
 import java.awt.AWTException;
 import java.awt.Robot;
