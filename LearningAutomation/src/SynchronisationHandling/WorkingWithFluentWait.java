@@ -27,7 +27,7 @@ public class WorkingWithFluentWait {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='Check']")));
 		wait.pollingEvery(Duration.ofSeconds(2));
 		
-		FluentWait w = new FluentWait(driver);
+		FluentWait<WebDriver> w = new FluentWait<WebDriver>(driver);
 		w.withTimeout(Duration.ofSeconds(20));
 		w.pollingEvery(Duration.ofSeconds(2));
 		w.ignoring(TimeoutException.class);

@@ -28,7 +28,7 @@ public class AutomateBlinkit {
 				// getting this exception:->
 				// org.openqa.selenium.ElementClickInterceptedException
 				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-				wait.until(ExpectedConditions.elementToBeClickable(name)).click();
+				wait.until(ExpectedConditions.elementToBeClickable(name));
 				name.click();
 				return;
 			}
