@@ -41,7 +41,7 @@ This repository is dedicated to learning and practicing **Automation Testing wit
 ## **How to Use This Repository?**  
 1. Clone the repository:  
    
-   git clone https://github.com/shashwatgithubworld/LearningAutomation.git
+   git clone [https://github.com/shashwatgithubworld/LearningAutomation.git](https://github.com/shashwatgithubworld/Learning_Selenium)
      
 2. Import the project into Eclipse/IntelliJ.  
 3. Ensure all required **JARs** (dependencies) are available in the `Jars` folder or added to the project build path.  
