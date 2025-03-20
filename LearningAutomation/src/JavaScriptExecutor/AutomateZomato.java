@@ -20,8 +20,8 @@ public class AutomateZomato {
 		WebElement scrollTill = driver.findElement(By.xpath("//span[text()='Share App Link']"));
 		// perform explicit type-casting
 		JavascriptExecutor j = (JavascriptExecutor) driver;
-		j.executeScript("arguments[0].scrollIntoView(false)", scrollTill);
-		//j.executeScript("arguments[0].scrollIntoView(true)", scrollTill);
+		//j.executeScript("arguments[0].scrollIntoView(false)", scrollTill);
+		j.executeScript("arguments[0].scrollIntoView(true)", scrollTill);
 		
 
 	}

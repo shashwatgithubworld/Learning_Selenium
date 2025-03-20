@@ -14,7 +14,7 @@ public class ConfirmationPopup extends BaseClass{
 		Alert a = driver.switchTo().alert();
 		
 		//If i need to click on Ok Button
-		a.accept();
+		//a.accept();
 		
 		//If i need to click on Cancel Button
 		a.dismiss();
