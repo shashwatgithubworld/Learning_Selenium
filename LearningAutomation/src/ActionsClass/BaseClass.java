@@ -21,7 +21,7 @@ public class BaseClass {
 			driver = new EdgeDriver();
 		else
 			System.out.println("Invalid Browser");
-		
+	//     Maximizing the window	
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
 		driver.get(url);
